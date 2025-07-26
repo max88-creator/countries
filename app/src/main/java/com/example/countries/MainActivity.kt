@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
-    val countries = arrayOf("Бразилия", "Аргентина", "Колумбия", "Чили", "Уругвай")
+    val countries = arrayOf("Бразилия", "Аргентина", "Колумбия", "Чили", "Уругвай", "Уганда")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
             android.R.layout.simple_list_item_1, countries
         )
         countriesList.adapter = adapter
-     
+
     }
 }
